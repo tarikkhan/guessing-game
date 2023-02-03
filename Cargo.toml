@@ -2,6 +2,8 @@
 name = "guessing-game"
 version = "0.1.0"
 edition = "2021"
+authors = [ "Tarik Hasan khan" ]
+description = "A simple variation of the guessing game from the Rust book"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

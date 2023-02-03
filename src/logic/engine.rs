@@ -4,10 +4,10 @@ use std::cmp::Ordering;
 
 pub fn game(difficulty: i32) {
     let mut counter = difficulty;
-    //println!("{}", "Guess the number:".green());
+
     println!("Number of guesses you get: {counter}");
     let secret_number: i32 = rand::thread_rng().gen_range(1..=100);
-    println!("The secret number is: {}", secret_number);
+
     println!("Type in your guess:");
     loop {
         let mut guess = String::new();
